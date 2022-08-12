@@ -37,9 +37,11 @@ html {
 }
 
 body {
+  position: relative;
+
   min-height: 100%;
 
-  padding: 25px;
+  padding: 30px 25px;
 
   background-color: var(--color-bg-dark-blue);
 
