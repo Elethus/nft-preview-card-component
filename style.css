@@ -54,7 +54,7 @@ body {
 a {
   color: var(--color-white);
   text-decoration: none;
-  transition: color .3s;
+  transition: color .5s linear;
 }
 
 a:hover,
@@ -102,13 +102,16 @@ img {
   left: 0;
   right: 0;
 
+  background: url(./images/icon-view.svg) center no-repeat,
+            hsla(178, 100%, 50%, 0.5);
+
+  opacity: 0;
   pointer-events: none;
-  transition: background-color 1s;
+  transition: opacity 1s ease-in-out;
 }
 
 .card-img:hover::after {
-  background: url(./images/icon-view.svg) center no-repeat,
-            hsla(178, 100%, 50%, 0.5);
+  opacity: 1;
 }
 
 .card-content {
