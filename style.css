@@ -156,7 +156,7 @@ img {
 
   padding-top: 16px;
 
-  border-top: solid 1px hsla(215, 52%, 70%, 0.25);
+  border-top: solid 1px var(--color-line-dark-blue);
 
   font-size: var(--fs-small);
   font-weight: var(--fw-light);
